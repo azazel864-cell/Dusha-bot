@@ -18,7 +18,7 @@ if not OPENAI_API_KEY:
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-DB_PATH = "memory.sqlite"
+DB_PATH = "/var/data/memory.sqlite"
 SHORT_HISTORY_LIMIT = 20  # последних сообщений на пользователя
 
 SYSTEM_PROMPT = """
